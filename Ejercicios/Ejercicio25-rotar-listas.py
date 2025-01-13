@@ -13,7 +13,7 @@ print("")
 lista_nueva = []
 n = 1
 for i in range (longitud):
-    numero = lista[(i+n+1)%longitud]
+    numero = lista[(i+n+1)%longitud] #CALCULA EL NUEVO INDICE 
     lista_nueva.append(numero)
 
 print(lista_nueva)
